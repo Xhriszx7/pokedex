@@ -41,7 +41,7 @@ main {
 /* Informações do Pokémon */
 .pokedex-pokemon-data {
     position: absolute;
-    top: 52%;
+    top: 55%;
     right: 27%;
     
     font-size: clamp(8px, 5vh, 25px);
@@ -74,11 +74,12 @@ main {
     background: none;
     
     border-radius: 5px;
-    border-left: 1px solid #950000;
-    border-bottom: 1px solid #950000;
+    border-left: 2px solid #950000;
+    border-bottom: 2px solid #950000;
     box-shadow: -3px, 4px, 0, #888;
     
-    font-weight: white;
+    color: white;
+    font-weight: 600;
     font-size: climp(8px, 5vh, 1em);
 }
 /* Quando passar o mause em cima */
